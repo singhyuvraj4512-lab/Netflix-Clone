@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Flow+Circular&display=swap');
+
+* {
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/cafd79d7-3d44-4558-8d0a-fc447fc3899f/web/IN-en-20261116-TRIFECTA-perspective_fb18c287-82ef-4e94-9068-ee48f50d0f53_large.jpg");
+    background-size: max(1200px, 100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+}
+
+.box {
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.66);
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 85vw;
+    margin: auto;
+    height: 75px;
+    position: relative;
+    z-index: 10;
+}
+
+nav img {
+    width: 150px;
+}
+
+.hero {
+    height: calc(100% - 75px);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 45px 10px 10px 10px;
+}
+
+.hero> :first-child {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.hero> :nth-child(2) {
+    font-size: 16px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-size: 16px;
+    text-align: center;
+}
+
+.input {
+    display: flex;
+    gap: 10px;
+}
+
+.btn1 {
+    font-size: 16px;
+    padding: 5px 20px;
+    background-color: #00000066;
+    color: white;
+    border: 0.5px solid rgba(255, 255, 255, 0.224);
+    border-radius: 5px;
+
+}
+
+.btn2 {
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: #e00202;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn3 {
+    padding: 5px 100px 5px 10px;
+    color: #f7f7f7;
+    background-color: #0000009c;
+    border: 0.5px solid #a8a7a7;
+    border-radius: 5px;
+}
+
+.btn4 {
+    padding: 10px 15px;
+    color: white;
+    background-color: rgb(226, 2, 2);
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: rgb(200, 0, 0);
+}
+
+.btn4:hover {
+    background-color: rgb(200, 0, 0);
+}
+
+.separator {
+    height: 5px;
+    background-color: #212121;
+}
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.firstline {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.first {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    padding: 10px 10px;
+}
+
+.first img {
+    width: 40vw;
+}
+
+.first video {
+    width: 30vw;
+    position: absolute;
+    right: 70px;
+    top: 70px;
+    z-index: -1;
+}
+
+.Questions {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    padding: 25px 10px 50px 10px;
+
+}
+
+.faq {
+    width: 60vw;
+    margin: auto;
+    color: white;
+    background-color: #414040b3;
+    padding: 20px 30px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+
+}
+
+.faq:hover {
+    background-color: #5d5c5cb3;
+}
+
+.faqs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footerinfo {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+#footeremail {
+    font-size: 18px;
+    padding: 10px 200px 10px 15px;
+}
+
+#footerbutton {
+    font-size: 18px;
+    padding: 10px 30px 10px 15px;
+}
+
+
+footer {
+    color: #ffffffb3;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 30px 30px 30px 30px;
+    font-size: 16px;
+}
+
+.que a {
+    color: #ffffffb3;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 75vw;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer a {
+    color: #ffffffb3;
+    font-size: 14px;
+}
+
+.end {
+    font-size: 14px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .main {
+        background-size: cover;
+    }
+
+    nav img {
+        width: 120px;
+    }
+
+    .btn2 {
+        font-size: 14px;
+    }
+
+    .btn4 {
+        font-size: 16px;
+    }
+
+    .hero> :first-child {
+        font-size: 30px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 14px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 14px;
+    }
+
+    .btn3 {
+        padding: 5px 10px;
+    }
+
+    .first video {
+        width: 30vw;
+        right: 35px;
+        top: 35px;
+
+    }
+
+    .faq {
+        font-size: 18px;
+    }
+
+    .footerinfo {
+        font-size: 14px;
+    }
+
+    #footeremail {
+        font-size: 16px;
+        padding: 7px 150px 7px 10px;
+    }
+
+    #footerbutton {
+        font-size: 16px;
+        padding: 7px 25px 7px 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    nav img {
+        width: 100px;
+    }
+
+    .btn2 {
+        font-size: 14px;
+    }
+
+    .btn4 {
+        font-size: 14px;
+    }
+
+    .first {
+        font-size: 14px;
+    }
+
+    .firstline {
+        font-size: 20px;
+    }
+
+    .first video {
+        width: 25vw;
+        right: 38px;
+        top: 38px;
+    }
+
+    .faq {
+        font-size: 16px;
+    }
+
+    #footeremail {
+        font-size: 14px;
+        padding: 5px 120px 5px 10px;
+    }
+
+    #footerbutton {
+        font-size: 14px;
+        padding: 5px 20px 5px 10px;
+    }
+
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

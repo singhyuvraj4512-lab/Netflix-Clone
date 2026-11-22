@@ -21,7 +21,7 @@ A front-end clone of the Netflix India landing page built using HTML and CSS.
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/Netflix-Clone.git
+git clone https://github.com/singhyuvraj4512-lab/Netflix-Clone.git
 ```
 
 Open `index.html` in your browser to view the project.

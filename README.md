@@ -1,20 +1,38 @@
-<WritingBlock id="62831" variant="document"># Netflix Clone
+# 🎬 Netflix Clone
 
-A front-end clone of the Netflix India landing page, created using HTML and CSS.
-Technologies Used
+A front-end clone of the Netflix India landing page built using HTML and CSS.
+
+## Features
+- Netflix-inspired homepage design
+- Hero section with background image
+- Promotional sections with images and videos
+- FAQ section and footer
+- Responsive layout
+- Custom favicon
+
+## Technologies Used
 - HTML5
 - CSS3
 - Flexbox
 - CSS Media Queries
-- Google Fonts
-Features
-- Netflix-inspired landing page
-- Hero section with background image
-- Responsive content sections
-- Frequently Asked Questions section
-- Footer with navigation links
-- Custom favicon
-Project Preview
-This project recreates the visual design of the Netflix India homepage for learning and practice.
-Author
-Yuvraj Singh</WritingBlock>
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR-USERNAME/Netflix-Clone.git
+```
+
+Open `index.html` in your browser to view the project.
+
+## Author
+
+**Yuvraj Singh**
+
+- [GitHub](https://github.com/singhyuvraj4512-lab)
+- [LinkedIn](https://www.linkedin.com/in/yuvraj-singh24/)
+
+---
+
+*This project is created for learning purposes and is not affiliated with Netflix.*

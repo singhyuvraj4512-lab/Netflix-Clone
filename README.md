@@ -2,6 +2,10 @@
 
 A front-end clone of the Netflix India landing page built using HTML and CSS.
 
+## 🌐 Live Demo
+
+[View Netflix Clone](https://singhyuvraj4512-lab.github.io/Netflix-Clone/)
+
 ## Features
 - Netflix-inspired homepage design
 - Hero section with background image
